@@ -18,20 +18,20 @@ This portfolio contains my testing practice, test cases, bug reports, SQL exerci
 
 ## Tools and Technologies
 
-Jira
-SQL
-HTML and CSS
-JavaScript
-Git and GitHub
+- Jira
+- SQL
+- HTML and CSS
+- JavaScript
+- Git and GitHub
 
 ## Portfolio Contents
 
-Test Cases
-Bug Reports
-Test Scenarios
-SQL Practice
-QA Documentation
-Software Testing Projects
+- Test Cases
+- Bug Reports
+- Test Scenarios
+- SQL Practice
+- QA Documentation
+- Software Testing Projects
 
 ## Career Objective
 
