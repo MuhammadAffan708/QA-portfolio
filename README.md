@@ -1,49 +1,47 @@
-# QA Portfolio
-Welcome to my QA Portfolio. This repository showcases my knowledge and practical skills in Software Quality Assurance, Manual Testing, Software Testing, and Quality Engineering.
+# 🧪 Software Quality Assurance (SQA) Portfolio
 
-## About This Repository
+Professional SQA testing artifacts, comprehensive manual test cases, bug reports, and API test suites. This repository demonstrates end-to-end testing methodologies applied to modern web and mobile applications.
 
-This portfolio contains my testing practice, test cases, bug reports, SQL exercises, and other QA-related projects. It demonstrates my understanding of software testing principles and my ability to identify, document, and analyze software defects.
+---
 
-## Skills and Expertise
-- Manual Software Testing
-- Software Quality Assurance (SQA)
-- Test Case Design and Execution
-- Bug Reporting and Documentation
-- Functional Testing
-- Regression Testing
-- Smoke Testing
-- SQL Basics
-- Test Documentation
+## 📌 Featured Test Projects
 
-## Tools and Technologies
+| Project Name | Application Type | Core Focus | Artifacts |
+| :--- | :--- | :--- | :--- |
+| *NayaPay Mobile App* | Mobile (Android/iOS) | Authentication, OTP Delivery, UI/UX Validation | [Test Cases](./Test-Cases.md) \| [Bug Reports](./Bug-Reports.md) |
+| *Automation Exercise* | E-commerce Web App | User Registration, Product Search, Checkout Flow | [Test Suite](./Test-Cases.md) \| [Defect Log](./Bug-Reports.md) |
 
-- Jira
-- SQL
-- HTML and CSS
-- JavaScript
-- Git and GitHub
+---
 
-## Portfolio Contents
+## 🛠️ Testing Tools & Frameworks
 
-- Test Cases
-- Bug Reports
-- Test Scenarios
-- SQL Practice
-- QA Documentation
-- Software Testing Projects
+* *Manual Testing:* Test Case Design, Boundary Value Analysis, Equivalence Partitioning, Exploratory Testing
+* *API Testing:* Postman, REST API Assertion, Environment Variables
+* *Bug Tracking & Docs:* GitHub Issues, Markdown Formatting, JIRA Workflows
+* *Version Control:* Git, GitHub Repositories
 
-## Career Objective
+---
 
-I am an aspiring Software Quality Assurance Engineer seeking an internship or trainee position where I can apply my testing knowledge, improve my technical skills, and contribute to delivering reliable, high-quality software.
+## 📂 Repository Structure
 
-## Author
+```text
+├── 📄 README.md              # Portfolio Overview & Documentation Index
+├── 📄 Test-Cases.md          # Structured Test Cases with Execution Logs
+├── 📄 Bug-Reports.md          # Detailed Bug Reports with Severity/Priority Metrics
+└── 📁 Assets                 # Screenshots, GIFs, and Execution Evidence
 
-Affan Ashraf
-
-Software Engineering Graduate | Aspiring SQA Engineer
-
-## Contact
-
-Feel free to explore my projects and connect with me for professional opportunities.
+📋 QA Artifact Templates & Standards
+All testing artifacts in this repository adhere to standard software testing life cycle (STLC) practices:
+1. Test Case Structure
+ * Identifiers: Unique Test ID, Title, and Preconditions
+ * Actionable Steps: Step-by-step Execution Tables with Expected vs. Actual Results
+ * Traceability: Direct linkages to open or resolved bug reports
+2. Bug Reporting Standard
+ * Metrics: Defined Severity (Impact) and Priority (Fix Urgency)
+ * Reproducibility: Environment specifications and precise steps to reproduce
+ * Evidence: Visual attachments and console/network logs where applicable
+🤝 Connect & Contact
+ * GitHub: [Your GitHub Profile](https://github me)
+ * LinkedIn: https://www.linkedin.com/in/muhammad-affan-710b473ab
+ * Email: affanashraf708@gmail.com
 
