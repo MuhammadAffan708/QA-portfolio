@@ -54,3 +54,9 @@ Screen recording of the reproduction steps is available.
 Status
 
 Open — Requires Investigation
+
+EVIDENCE
+
+https://github.com/user-attachments/assets/01287cb3-8117-48fe-9536-5744e1e317d9
+
+
