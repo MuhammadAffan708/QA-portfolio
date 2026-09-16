@@ -243,6 +243,45 @@ The affected navbar text extends outside the navigation container when the websi
 The issue appears to be related to the responsive layout at the narrower mobile viewport.
 
 
+## BUG-004 — Footer Social Media Links Are Not Working
+
+*Severity:* Medium  
+*Priority:* Medium  
+*Status:* Open  
+
+### Description
+The social media icons displayed in the website footer do not redirect users to their respective social media pages.
+
+### Steps to Reproduce
+1. Open the DevForest website.
+2. Scroll down to the footer.
+3. Locate the social media icons.
+4. Click/tap the LinkedIn icon.
+5. Observe the page that opens.
+6. Repeat the test with the other available social media icons.
+
+### Expected Result
+Clicking a social media icon should redirect the user to the corresponding official social media page.
+
+### Actual Result
+The social media icons do not redirect to their respective social media pages. Instead, the website homepage is opened/loaded again.
+
+### Environment
+- *Platform:* Web
+- *Device:* Desktop / Mobile
+- *Browser:* [Chrome]
+- *Date Tested:* 16 September 2026
+
+### Evidence
+
+
+https://github.com/user-attachments/assets/a8d98d74-e6d7-45fa-8ff2-9d014eddd206
+
+
+
+
+
+
 
 
 
