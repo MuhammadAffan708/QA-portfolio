@@ -291,10 +291,6 @@ The social media icons do not redirect users to their respective social media pa
 
 Users are unable to access the company's social media profiles through the footer links, which reduces the functionality of the website's social media navigation.
 
-## Evidence
-
-> Add screenshots or screen recording showing the footer icons and the resulting homepage navigation.
-
 ## Reproducibility
 
 **100% — Reproduced consistently during testing.**
@@ -302,7 +298,6 @@ Users are unable to access the company's social media profiles through the foote
 ## Notes
 
 The issue was observed with the available social media icons in the website footer.
-
 
 ### Evidence
 
