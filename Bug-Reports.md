@@ -175,6 +175,10 @@ Users may enter incorrectly formatted email addresses, potentially causing issue
 
 **Open — Requires Investigation**
 
-https://github.com/user-attachments/assets/205c7710-5f0a-4e46-aa67-0403ca97112a
+
+
+https://github.com/user-attachments/assets/858fd26f-b07b-45ed-9a3a-4310d51c75ad
+
+
 
 
