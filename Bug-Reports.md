@@ -175,7 +175,7 @@ https://github.com/user-attachments/assets/1b538276-d83a-48c8-8c1c-2fdb4f4b2f08
 **Open — Requires Investigation**
 
 
-# Bug #003 — Navbar Text Overflows on Mobile Portrait View
+# Bug-003 — Navbar Text Overflows on Mobile Portrait View
 
 ## Environment
 
@@ -231,9 +231,8 @@ The affected navbar text extends outside the navigation container when the websi
 | ------------------ | --------------------- |
 | Mobile — Portrait  |  Issue Reproduced    |
 | Mobile — Landscape |  Working as Expected |
-| Desktop            | 
+| Desktop            |  Working as Expected |
 
- Working as Expected |
 
 ## Evidence
 
