@@ -37,3 +37,6 @@ OTP email was not received.
 **Status:** Failed
 
 **Related Bug:** BUG-001 — Email OTP Not Received
+
+
+
