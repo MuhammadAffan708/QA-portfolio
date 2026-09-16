@@ -67,6 +67,60 @@ To be recorded after test execution.
 
 *Status:* Not Executed
 
+# Test Case — Navbar Responsiveness on Mobile Portrait View
+
+## Test Case Information
+
+| Field             | Details                                                                                                                              |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| **Test Case ID**  | TC-UI-001                                                                                                                            |
+| **Test Scenario** | Verify navbar displays correctly on mobile portrait view                                                                             |
+| **Module**        | Navigation Bar                                                                                                                       |
+| **Test Type**     | UI / Responsive Testing                                                                                                              |
+| **Priority**      | Medium                                                                                                                               |
+| **Related Bug**   | [Bug #003 — Navbar Text Overflows on Mobile Portrait View](../Bug-Reports.md#bug-003--navbar-text-overflows-on-mobile-portrait-view) |
+
+## Preconditions
+
+* Website is accessible.
+* Device is connected to the internet.
+* Google Chrome is installed.
+* Device is set to portrait orientation.
+
+## Test Environment
+
+| Field           | Details            |
+| --------------- | ------------------ |
+| **Device**      | Tecno Camon 19 Neo |
+| **OS**          | Android 13         |
+| **Browser**     | Google Chrome      |
+| **Orientation** | Portrait           |
+
+## Test Steps
+
+| Step | Action                                                                | Expected Result                                                                     | Actual Result                                                | Status |
+| ---- | --------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------ | ------ |
+| 1    | Open the DEVFOREST AI (SMC-PRIVATE) LIMITED website in Google Chrome. | Website should load successfully.                                                   | Website loaded successfully.                                 | Pass   |
+| 2    | Keep the device in portrait orientation.                              | Website should adapt correctly to the mobile viewport.                              | Website displayed in portrait mode.                          | Pass   |
+| 3    | Observe the navbar and its navigation items.                          | All navbar text should remain within the navigation container and be fully visible. | A navbar text item extends outside the navigation container. | Fail   |
+
+## Expected Result
+
+All navbar items should remain within the navigation container and should be fully visible without overflow or layout issues on a mobile portrait viewport.
+
+## Actual Result
+
+A navbar text item extends outside the navigation container in portrait mode.
+
+## Test Result
+
+**Status: Failed**
+
+## Defect Reference
+
+[View Bug #003 — Navbar Text Overflows on Mobile Portrait View](../Bug-Reports.md#bug-003--navbar-text-overflows-on-mobile-portrait-view)
+
+
 
 
 
