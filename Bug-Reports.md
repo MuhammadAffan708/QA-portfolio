@@ -180,5 +180,76 @@ Users may enter incorrectly formatted email addresses, potentially causing issue
 https://github.com/user-attachments/assets/858fd26f-b07b-45ed-9a3a-4310d51c75ad
 
 
+# Bug #003 — Navbar Text Overflows on Mobile Portrait View
+
+## Environment
+
+| Field           | Details                            |
+| --------------- | ---------------------------------- |
+| **Website**     | DEVFOREST AI (SMC-PRIVATE) LIMITED |
+| **Device**      | Tecno Camon 19 Neo                 |
+| **OS**          | Android 13                         |
+| **Browser**     | Google Chrome                      |
+| **Orientation** | Portrait                           |
+| **Test Type**   | UI / Responsive Testing            |
+
+## Preconditions
+
+* Website is accessible.
+* Device is connected to the internet.
+* Browser is using the default zoom level.
+
+## Steps to Reproduce
+
+1. Open the DEVFOREST AI (SMC-PRIVATE) LIMITED website in Google Chrome.
+2. Hold the device in **portrait orientation**.
+3. Navigate to the affected navigation section.
+4. Observe the navbar text.
+
+## Expected Result
+
+Navbar text should remain completely within the navigation container and should be clearly visible without overflowing or overlapping other elements.
+
+## Actual Result
+
+The affected navbar text extends outside the navigation container when the website is viewed in portrait orientation.
+
+## Reproducibility
+
+**100%**
+
+## Severity
+
+**Low**
+
+## Priority
+
+**Medium**
+
+## Status
+
+**Open**
+
+## Cross-Viewport Verification
+
+| Viewport           | Result                |
+| ------------------ | --------------------- |
+| Mobile — Portrait  |  Issue Reproduced    |
+| Mobile — Landscape |  Working as Expected |
+| Desktop            | 
+
+ Working as Expected |
+
+## Evidence
+
+> Add a screenshot demonstrating the navbar text overflow in portrait mode.
+
+## Notes
+
+The issue appears to be related to the responsive layout at the narrower mobile viewport.
+https://github.com/user-attachments/assets/f4e6abe5-623e-4408-be26-7f62acb7d846
+
+
+
 
 
