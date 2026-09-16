@@ -304,6 +304,44 @@ The issue was observed with the available social media icons in the website foot
 
 https://github.com/user-attachments/assets/a8d98d74-e6d7-45fa-8ff2-9d014eddd206
 
+# Bug-005 — Unexpected Page Scroll During Keyboard Navigation
+
+| Field | Details |
+| :--- | :--- |
+| *Bug ID* | BUG-005 |
+| *Project* | DevForest AI Website |
+| *Severity* | Medium |
+| *Priority* | Medium |
+| *Category* | UI / Accessibility (a11y) |
+| *Environment* | Windows 11 / Chrome (Latest) |
+
+---
+
+## 1. Summary
+When navigating the website using the keyboard Tab key, the browser viewport rapidly scrolls and jumps to off-screen or misaligned elements, breaking standard visual focus sequence and degrading user experience.
+
+## 2. Steps to Reproduce
+1. Open the landing page.
+2. Click near the header area to establish initial page focus.
+3. Press Tab continuously to cycle through interactive elements.
+4. Observe the viewport movement as focus transitions between components.
+
+## 3. Test Results
+
+* *Expected Result:* The focus indicator moves sequentially through visible elements while maintaining smooth, predictable viewport scrolling.
+* *Actual Result:* The browser viewport executes sudden, high-speed scrolling jumps to hidden or misaligned DOM elements.
+
+## 4. Technical Analysis & Fix Recommendation
+* *Hidden Elements:* Ensure off-screen or collapsed UI components use display: none; or visibility: hidden; to exclude them from the tab order.
+* *DOM Alignment:* Re-align the HTML DOM tree sequence with visual CSS placement to avoid layout jump issues caused by Flexbox/Grid ordering.
+* *Tab Indices:* Remove positive integer tabindex attributes (e.g., tabindex="1"), sticking to standard document flow or tabindex="0".
+## EVIDENCE
+
+
+https://github.com/user-attachments/assets/3da23496-5787-4fee-97e9-b8609bfaa11f
+
+
+
 
 
 
