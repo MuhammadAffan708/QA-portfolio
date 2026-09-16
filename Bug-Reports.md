@@ -164,9 +164,7 @@ Users may enter incorrectly formatted email addresses, potentially causing issue
 
 ## Evidence
 
-https://github.com/user-attachments/assets/f39f1040-e22e-454c-8135-b47fdc012946
-
-
+https://github.com/user-attachments/assets/1b538276-d83a-48c8-8c1c-2fdb4f4b2f08
 
 ## Related Test Case
 
