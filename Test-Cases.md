@@ -78,7 +78,7 @@ To be recorded after test execution.
 | **Module**        | Navigation Bar                                                                                                                       |
 | **Test Type**     | UI / Responsive Testing                                                                                                              |
 | **Priority**      | Medium                                                                                                                               |
-| **Related Bug**   | [Bug #003 — Navbar Text Overflows on Mobile Portrait View](../Bug-Reports.md#bug-003--navbar-text-overflows-on-mobile-portrait-view) |
+| **Related Bug**   | [Bug-003 — Navbar Text Overflows on Mobile Portrait View](../Bug-Reports.md#bug-003--navbar-text-overflows-on-mobile-portrait-view) |
 
 ## Preconditions
 
@@ -118,7 +118,7 @@ A navbar text item extends outside the navigation container in portrait mode.
 
 ## Defect Reference
 
-[View Bug #003 — Navbar Text Overflows on Mobile Portrait View](../Bug-Reports.md#bug-003--navbar-text-overflows-on-mobile-portrait-view)
+[View Bug-003 — Navbar Text Overflows on Mobile Portrait View](../Bug-Reports.md#bug-003--navbar-text-overflows-on-mobile-portrait-view)
 
 
 
