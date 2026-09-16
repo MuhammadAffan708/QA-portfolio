@@ -239,7 +239,7 @@ The affected navbar text extends outside the navigation container when the websi
 
 ## Evidence
 
-> Add a screenshot demonstrating the navbar text overflow in portrait mode.
+> https://github.com/user-attachments/assets/f39f1040-e22e-454c-8135-b47fdc012946
 
 ## Notes
 
