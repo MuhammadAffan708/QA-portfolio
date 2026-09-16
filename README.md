@@ -1,10 +1,9 @@
-# 🧪 Software Quality Assurance (SQA) Portfolio
+#  Software Quality Assurance (SQA) Portfolio
 
 Professional SQA testing artifacts, comprehensive manual test cases, bug reports, and API test suites. This repository demonstrates end-to-end testing methodologies applied to modern web and mobile applications.
 
----
 
-## 📌 Featured Test Projects
+##  Featured Test Projects
 
 | Project Name | Application Type | Core Focus | Artifacts |
 | :--- | :--- | :--- | :--- |
@@ -13,7 +12,7 @@ Professional SQA testing artifacts, comprehensive manual test cases, bug reports
 
 ---
 
-## 🛠️ Testing Tools & Frameworks
+##  Testing Tools & Frameworks
 
 * *Manual Testing:* Test Case Design, Boundary Value Analysis, Equivalence Partitioning, Exploratory Testing
 * *API Testing:* Postman, REST API Assertion, Environment Variables
@@ -22,15 +21,15 @@ Professional SQA testing artifacts, comprehensive manual test cases, bug reports
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```text
-├── 📄 README.md              # Portfolio Overview & Documentation Index
-├── 📄 Test-Cases.md          # Structured Test Cases with Execution Logs
-├── 📄 Bug-Reports.md          # Detailed Bug Reports with Severity/Priority Metrics
-└── 📁 Assets                 # Screenshots, GIFs, and Execution Evidence
+├──  README.md              # Portfolio Overview & Documentation Index
+├──  Test-Cases.md          # Structured Test Cases with Execution Logs
+├──  Bug-Reports.md          # Detailed Bug Reports with Severity/Priority Metrics
+└──  Assets                 # Screenshots, GIFs, and Execution Evidence
 
-📋 QA Artifact Templates & Standards
+  QA Artifact Templates & Standards
 All testing artifacts in this repository adhere to standard software testing life cycle (STLC) practices:
 1. Test Case Structure
  * Identifiers: Unique Test ID, Title, and Preconditions
@@ -40,8 +39,9 @@ All testing artifacts in this repository adhere to standard software testing lif
  * Metrics: Defined Severity (Impact) and Priority (Fix Urgency)
  * Reproducibility: Environment specifications and precise steps to reproduce
  * Evidence: Visual attachments and console/network logs where applicable
-🤝 Connect & Contact
- * GitHub: [Your GitHub Profile](https://github me)
+
+## Connect & Contact
+* GitHub: ---https://github.com/MuhammadAffan708
  * LinkedIn: https://www.linkedin.com/in/muhammad-affan-710b473ab
  * Email: affanashraf708@gmail.com
 
