@@ -38,55 +38,36 @@ OTP email was not received.
 
 **Related Bug:** BUG-001 — Email OTP Not Received
 
-# Test Case — Email Address Format Validation
 
-## Test Case Information
+## TC-002 — Verify Invalid Email Format Validation
 
-| Field         | Details                                                                                                              |
-| ------------- | -------------------------------------------------------------------------------------------------------------------- |
-| Test Case ID  | TC-EMAIL-002                                                                                                         |
-| Test Scenario | Verify email address format validation                                                                               |
-| Module        | Email Verification                                                                                                   |
-| Test Type     | Functional / Negative Testing                                                                                        |
-| Priority      | High                                                                                                                 |
-| Related Bug   | [Bug #002 — Invalid Email Address Format Accepted](../Bug-Reports.md#bug-002--invalid-email-address-format-accepted) |
+*Test Scenario:* Verify that the application rejects an invalid email address format.
 
-## Preconditions
+*Preconditions:*
+- NayaPay app is installed.
+- User is on the email verification screen.
+- Device is connected to the internet.
 
-* User is on the email verification screen.
-* Email input field is available.
-* Application is connected to the internet.
+*Test Data:*
+- Invalid email: aaaaaaaaaa{}*"&*/_+$#@gmail.com
 
-## Test Data
+*Test Steps:*
+1. Open the NayaPay application.
+2. Navigate to the email verification screen.
+3. Enter the invalid email address aaaaaaaaaa{}*"&*/_+$#@gmail.com.
+4. Tap the *Next* button.
+5. Observe the application response.
 
-**Invalid Email:**
+*Expected Result:*
+The application should reject the invalid email format and display an appropriate validation message.
 
-`test@example.com.`
+*Actual Result:*
+To be recorded after test execution.
 
-The email address contains an invalid trailing dot in the domain portion.
+*Status:* Not Executed
 
-## Test Steps
+https://github.com/user-attachments/assets/a6f7c6f5-4ccc-4a1d-a27c-b094ba78bb90
 
-| Step | Action                                        | Expected Result                                                                 | Actual Result                                                                | Status |
-| ---- | --------------------------------------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------ |
-| 1    | Open the email verification screen.           | Email input field should be displayed.                                          | Email input field is displayed.                                              | Pass   |
-| 2    | Enter `test@example.com.` in the email field. | System should identify the email address as invalid.                            | Application accepts the email address.                                       | Fail   |
-| 3    | Click **Continue / Submit**.                  | System should display an appropriate validation message and prevent submission. | Application accepts the email address instead of showing a validation error. | Fail   |
 
-## Expected Result
-
-The application should validate the email address according to standard email formatting rules and reject invalid email formats.
-
-## Actual Result
-
-The application accepts an email address containing an invalid trailing dot in the domain portion instead of displaying a validation error.
-
-## Test Result
-
-**Status:** Failed
-
-## Defect Reference
-
-[View Bug #002 — Invalid Email Address Format Accepted](../Bug-Reports.md#bug-002--invalid-email-address-format-accepted)
 
 
