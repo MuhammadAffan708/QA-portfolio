@@ -164,8 +164,9 @@ Users may enter incorrectly formatted email addresses, potentially causing issue
 
 ## Evidence
 
-- Screenshot showing the invalid email address entered in the email field.
-- The Next button is visible and enabled.
+https://github.com/user-attachments/assets/f39f1040-e22e-454c-8135-b47fdc012946
+
+
 
 ## Related Test Case
 
@@ -174,10 +175,6 @@ Users may enter incorrectly formatted email addresses, potentially causing issue
 ## Status
 
 **Open — Requires Investigation**
-
-
-
-https://github.com/user-attachments/assets/858fd26f-b07b-45ed-9a3a-4310d51c75ad
 
 
 # Bug #003 — Navbar Text Overflows on Mobile Portrait View
@@ -247,7 +244,7 @@ The affected navbar text extends outside the navigation container when the websi
 ## Notes
 
 The issue appears to be related to the responsive layout at the narrower mobile viewport.
-https://github.com/user-attachments/assets/f4e6abe5-623e-4408-be26-7f62acb7d846
+
 
 
 
