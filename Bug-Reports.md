@@ -243,34 +243,66 @@ The affected navbar text extends outside the navigation container when the websi
 The issue appears to be related to the responsive layout at the narrower mobile viewport.
 
 
-## BUG-004 — Footer Social Media Links Are Not Working
+# BUG-004 — Footer Social Media Links Redirect to Homepage
 
-*Severity:* Medium  
-*Priority:* Medium  
-*Status:* Open  
+## Bug Information
 
-### Description
-The social media icons displayed in the website footer do not redirect users to their respective social media pages.
+| Field           | Details                 |
+| --------------- | ----------------------- |
+| **Bug ID**      | BUG-004                 |
+| **Module**      | Website Footer          |
+| **Category**    | Functional / Navigation |
+| **Severity**    | Medium                  |
+| **Priority**    | Medium                  |
+| **Status**      | Open                    |
+| **Date Tested** | 16 September 2026       |
 
-### Steps to Reproduce
-1. Open the DevForest website.
-2. Scroll down to the footer.
-3. Locate the social media icons.
-4. Click/tap the LinkedIn icon.
-5. Observe the page that opens.
+## Description
+
+The social media icons displayed in the website footer do not redirect users to their respective social media pages. Clicking an icon instead loads the website homepage.
+
+## Steps to Reproduce
+
+1. Open the **DevForest AI (SMC-Private) Limited** website.
+2. Scroll down to the footer section.
+3. Locate the available social media icons.
+4. Click or tap the **LinkedIn** icon.
+5. Observe the resulting page.
 6. Repeat the test with the other available social media icons.
 
-### Expected Result
-Clicking a social media icon should redirect the user to the corresponding official social media page.
+## Expected Result
 
-### Actual Result
-The social media icons do not redirect to their respective social media pages. Instead, the website homepage is opened/loaded again.
+Each social media icon should redirect the user to its corresponding official social media page.
 
-### Environment
-- *Platform:* Web
-- *Device:* Desktop / Mobile
-- *Browser:* [Chrome]
-- *Date Tested:* 16 September 2026
+## Actual Result
+
+The social media icons do not redirect users to their respective social media pages. Instead, the website homepage is loaded again.
+
+## Environment
+
+| Field         | Details           |
+| ------------- | ----------------- |
+| **Platform**  | Web               |
+| **Browser**   | Google Chrome     |
+| **Device**    | Desktop / Mobile  |
+| **Test Date** | 16 September 2026 |
+
+## Impact
+
+Users are unable to access the company's social media profiles through the footer links, which reduces the functionality of the website's social media navigation.
+
+## Evidence
+
+> Add screenshots or screen recording showing the footer icons and the resulting homepage navigation.
+
+## Reproducibility
+
+**100% — Reproduced consistently during testing.**
+
+## Notes
+
+The issue was observed with the available social media icons in the website footer.
+
 
 ### Evidence
 
