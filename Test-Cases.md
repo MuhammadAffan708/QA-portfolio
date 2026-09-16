@@ -40,6 +40,7 @@ OTP email was not received.
 
 
 ## TC-002 — Verify Invalid Email Format Validation
+*Related Bug:* [BUG-002 — Invalid Email Accepted](./Bug-Reports.md)
 
 *Test Scenario:* Verify that the application rejects an invalid email address format.
 
@@ -66,7 +67,7 @@ To be recorded after test execution.
 
 *Status:* Not Executed
 
-https://github.com/user-attachments/assets/a6f7c6f5-4ccc-4a1d-a27c-b094ba78bb90
+
 
 
 
