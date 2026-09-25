@@ -341,6 +341,53 @@ When navigating the website using the keyboard Tab key, the browser viewport rap
 https://github.com/user-attachments/assets/3da23496-5787-4fee-97e9-b8609bfaa11f
 
 
+## Bug-006 — Mismatched Label Text on 404 Error Page
+
+### Description
+The custom 404 "Page not found" page displays a small label above the heading that reads **"Coming soon"**, which contradicts the actual message below it ("Page not found"). This creates confusing/misleading messaging for the user — "Coming soon" implies the page will exist in the future, while "Page not found" implies the URL is invalid.
+
+### Environment
+- **URL:** `https://whiteboxtech.net/<invalid-path>` (e.g. `/randomtext123`)
+- **Browser:** Google Chrome
+- **OS:** Windows
+- **Device:** Desktop
+
+### Steps to Reproduce
+1. Go to `https://whiteboxtech.net/`
+2. Manually enter any invalid/non-existent path in the URL bar (e.g. `whiteboxtech.net/randomtext123`)
+3. Press Enter and wait for the page to load
+4. Observe the small label text above the "Page not found" heading
+
+### Expected Result
+The label above the heading should match the page's actual context — e.g. **"Error"**, **"404"**, or **"Oops!"**
+
+### Actual Result
+The label incorrectly displays **"Coming soon"**, which conflicts with the "Page not found" message directly below it.
+
+### Screenshots
+*(attach: 20260925_2107087206592847858256906.jpg)*
+
+### Severity
+`Low`
+
+### Priority
+`Low`
+
+### Labels
+`bug` `ui` `copy` `404-page`
+
+### Additional Notes
+- Likely caused by a reused UI component (e.g. an "Under Construction" label component repurposed for the 404 template) without updating its text.
+- Page also took a few seconds to load — recommend separately verifying load time isn't an unrelated performance issue.
+
+### Suggested Fix
+Update the label text on the 404 template component to reflect its actual purpose (e.g. replace "Coming soon" with "Error" or "404"), decoupling it from any "Coming Soon" component if shared.
+
+<img width="1920" height="1020" alt="Screenshot 2026-09-25 091406" src="https://github.com/user-attachments/assets/0fc4f1fe-f1be-4cdc-9c09-b1ac01084922" />
+
+
+
+
 
 
 
