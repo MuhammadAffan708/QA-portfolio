@@ -365,7 +365,8 @@ The label above the heading should match the page's actual context — e.g. **"E
 The label incorrectly displays **"Coming soon"**, which conflicts with the "Page not found" message directly below it.
 
 ### Screenshots
-*(attach: 20260925_2107087206592847858256906.jpg)*
+*(<img width="1920" height="1020" alt="Screenshot 2026-09-25 091406" src="https://github.com/user-attachments/assets/4c443c8e-9bc5-4516-ba08-0c4179b1f645" />
+)*
 
 ### Severity
 `Low`
@@ -383,7 +384,6 @@ The label incorrectly displays **"Coming soon"**, which conflicts with the "Page
 ### Suggested Fix
 Update the label text on the 404 template component to reflect its actual purpose (e.g. replace "Coming soon" with "Error" or "404"), decoupling it from any "Coming Soon" component if shared.
 
-<img width="1920" height="1020" alt="Screenshot 2026-09-25 091406" src="https://github.com/user-attachments/assets/0fc4f1fe-f1be-4cdc-9c09-b1ac01084922" />
 
 
 
